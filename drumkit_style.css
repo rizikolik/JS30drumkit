@@ -1,0 +1,46 @@
+html{
+    background-image:url("images/background.jpg");
+    font-size: 2em;
+    background-size: cover;
+    font-family: Arial;
+    
+
+}
+#container{
+   display:flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.key{
+    
+    border:1px solid red;
+    color:white;
+    margin:0.2em;
+    text-align: center;
+    width:3em;
+    font-weight: bold;
+    background-color: yellow;
+    padding:0.1em;
+    transition: all 0.1s;
+    
+    
+
+}
+.sound{
+    color:black;
+    font-size: 0.5em;
+    text-align: center;
+    margin:auto;
+    font-weight: bold;
+
+}
+.playing{
+    border-color: black;
+    transform: scale(2);
+    box-shadow: 0 0 10px black;
+
+
+}
+
